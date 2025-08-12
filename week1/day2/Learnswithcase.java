@@ -1,21 +1,30 @@
 package week1.day2;
 
 public class Learnswithcase {
+	//int learners=50;
 
-	public static void main(String[] args) {
-		// Switchcase shortcut ---> type "switch" then press ctrl+space
-		String browser = "Chrome";
-		
-		switch (browser) {
-		case "Chrome":
-			System.out.println("open the Chrome browser");
-			break;
+		public static void main(String[] args) {
 			
-		case "Edge":
-			System.out.println("open the Edge browser");
-			default:
-				System.out.println("open IE");
-}
-	}
+			//shortcut--->type switch and do ctrl+space
+			String browser="firefox";
+			
+			switch (browser) {
+			case "Chrome":
+				System.out.println("open chrome browser");
+				break;
+				
+			case "Edge":
+				System.out.println("open edge browser");
+				break;
+				
+			case "safari":
+				System.out.println("open safari browser");
+				break;
+				default:
+					System.out.println("open IE");
+			}
+			
 
-}
+		}
+
+	}
