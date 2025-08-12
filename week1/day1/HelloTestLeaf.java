@@ -1,12 +1,12 @@
 package week1.day1;
 
-public class HelloTestLeaf {
-
-	public static void main(String[] args) {
-		// print the statement Welcome to TestLeaf
+public class FirstProgram {
 	
-		System.out.println("hi pro");
-
+	//type main and do ctrl+space
+	public static void main(String[] args) {
+		
+		//how to print the statement--->type syso and do ctrl+space
+		System.out.println("welcome to testleaf");
+		
 	}
-
 }
