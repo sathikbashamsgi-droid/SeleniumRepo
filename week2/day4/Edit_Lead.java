@@ -56,7 +56,7 @@ public class Edit_Lead {
 		       WebElement el=driver.findElement(By.id("updateLeadForm_description"));
 		       el.clear();
 		      //Fill the Important Note Field with Any text
-		       el.sendKeys("Selenium Learner");
+		       el.sendKeys("Testing");
 		      //Click on the update button
 		       driver.findElement(By.className("smallSubmit")).click();
 		      //Get the Title of the Resulting Page
@@ -68,3 +68,4 @@ public class Edit_Lead {
 	}
 
 }
+
